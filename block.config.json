@@ -1,0 +1,13 @@
+{
+  "name": "add_todo_block",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/add_todo_block",
+    "ssh": "git@github.com:nikhilvneoito/add_todo_block.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
